@@ -15,8 +15,12 @@ namespace CatalogoRoupas.Models
         public string Marca { get; set; }
 
         [Column("Masculino")]
-        [Display(Name = "Sexo")]
-        public bool Marculino { get; set; }
+        [Display(Name = "Masculino")]
+        public bool Masculino { get; set; }
+
+        [Column("Feminino")]
+        [Display(Name = "Feminino")]
+        public bool Feminino { get; set; }
 
         [Column("Peca")]
         [Display(Name = "Peça")]
